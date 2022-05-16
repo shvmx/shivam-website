@@ -1,0 +1,133 @@
+/* https://colorhunt.co/palette/f6f5f514537400334eee6f57 */
+body {
+  background-color: #F6F5F5;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+.top-container {
+  padding-top: 0;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.iam {
+  color: white;
+  font-family: 'Sacramento', cursive;
+  font-size: 150px;
+  text-shadow: 3px 2px 8px #000000;
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  right: 400px;
+
+}
+
+.shivam {
+  color: white;
+  font-family: 'Sacramento', cursive;
+  font-size: 200px;
+  text-shadow: 2px 2px 4px #000000;
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  right: 700px;
+}
+
+.main2  {
+
+  color: white;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  top: 460px;
+  right: 260px;
+  height: auto;
+  width: auto;
+
+
+}
+
+.video {
+  width: 100%;
+}
+
+
+
+
+.top-cloud {
+  position: absolute;
+  top: 60px;
+  right: 600px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 200px;
+}
+
+.shivam-image {
+  height: 300px;
+  width:  300px;
+  }
+
+.internet-image {
+  height: 250px;
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.music-image {
+  height: 245px;
+  width: 245px;
+  float: right;
+  margin-left: 30px;
+}
+
+.myskills {
+  color: #00334E;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.hello {
+  font-size: 50px;
+  color: #00334E;
+}
+
+.underskill {
+  font-size: 30px;
+  padding-left: 5px;
+  color: #145374;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 200px auto 100px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.getintouch {
+
+}
+
+.bottom-container {
+  background-color: #EE6F57;
+  padding-top: 0;
+}

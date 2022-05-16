@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback form</title>
+	<meta charset="utf-8">
+	<style>
+		body {
+			text-align: center;
+			margin: 0 auto 0 auto;
+		}
+		div {
+			text-align: center;
+		}
+		form {
+			width: 400px;
+			background-color: lightblue;
+			text-align: center;
+			padding: 20px;
+		}
+
+		input, textarea {
+			padding: 12px;
+			margin: 6px 6px 6px 0;
+		}
+
+		input[type=submit] {
+			background-color: green;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			cursor: pointer;
+		}
+
+		input[type=reset] {
+			background-color: red;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+			background-color: darkgreen;
+			color: lightblue;
+		}
+
+		input[type=reset]:hover {
+			background-color: white;
+			color: blue;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div>
+	<form>
+		<form action="" method="POST">
+		<label>Your Name</label>
+		<input type="text" name="Full name"><br><br>
+
+		<label for="gender">Your gender</label>
+		<input type="radio" name="gender" value="male">
+		<input type="radio" name="gender" value="female"><br><br>
+
+		<label for="email">Your E-mail</label><br>
+		<input type="text" name="email"><br><br>
+
+		<label for="comment">Your comments</label><br>
+		<textarea name="comments"></textarea><br><br>
+
+		<input type="submit" value="submit">
+		<input type="reset" value="clear">
+	</form>
+	</div>
+</body>
+</html>
